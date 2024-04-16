@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/styles.css'; // Importar estilos CSS
 
 function Registro() {
     return (
-        <div>
+        <div className="container">
             <h2>Registro</h2>
             <form>
                 <label htmlFor="username">Username</label>
